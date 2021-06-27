@@ -47,7 +47,7 @@ Refer the following documentations to download the Text Editor of your choice:
 
 - Navigate to the directory `calculator` in your File Explorer.
 
-- Run `git checkout milestone-1` to check out the working branch
+- Run `git checkout milestone-1` to check out the feature branch
 
 - Run `npm install` to install dependencies.
 
