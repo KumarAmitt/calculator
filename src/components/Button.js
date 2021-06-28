@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 const Button = ({ buttonName }) => (
   <>
-    <h1>Button</h1>
+    <button type="button">{buttonName}</button>
   </>
 );
 
 Button.propTypes = {
-  buttonName: PropTypes.string,
+  buttonName: PropTypes.string.isRequired,
 };
 
 export default Button;

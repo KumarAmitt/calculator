@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 const Display = ({ result }) => (
   <>
-    <h1>Display</h1>
     <h3>{result}</h3>
   </>
 );
