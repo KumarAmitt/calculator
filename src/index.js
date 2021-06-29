@@ -1,7 +1,6 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import App from './components/App';
 
-const Hello = () => <h1>Welcome to Math-Magicians Inc.</h1>;
-
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
