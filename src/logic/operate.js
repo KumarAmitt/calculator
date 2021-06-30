@@ -1,9 +1,10 @@
 import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
-  // if (numberOne && (numberTwo === '' || operation === '')) {
-  //   return numberOne;
-  // }
+  if (!numberOne || !numberTwo || !operation) return '0';
+  if (/[a-zA-Z]/.test(numberOne) && operation) {
+    return 'Invalid Number';
+  }
 
   const num1 = Big(numberOne);
   const num2 = Big(numberTwo);
@@ -20,7 +21,7 @@ const operate = (numberOne, numberTwo, operation) => {
       result = num1.times(num2);
       break;
     case '÷':
-      result = numberTwo === 0 ? 'Can\'t divide by 0' : num1.div(num2);
+      result = numberTwo === '0' ? 'Can\'t divide by 0' : num1.div(num2);
       break;
     case '%':
       result = (num1.times(num2)).div(100);
