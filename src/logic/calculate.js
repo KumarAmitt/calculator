@@ -37,7 +37,7 @@ const calculate = (data, buttonName) => {
       break;
     case '-':
     case '+':
-    case '*':
+    case 'x':
     case '÷':
       if (next !== '') {
         total = operate(total, next, operation);
