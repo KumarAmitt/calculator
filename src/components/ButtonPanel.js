@@ -18,7 +18,7 @@ const ButtonPanel = ({ clickHandler }) => {
           {renderButton('7')}
           {renderButton('8')}
           {renderButton('9')}
-          {renderButton('X')}
+          {renderButton('x')}
         </div>
         <div>
           {renderButton('4')}
