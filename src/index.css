@@ -13,13 +13,7 @@ body {
   padding: 0;
 }
 
-button {
-  height: 30px;
-  width: 50px;
-}
-
 .App {
-  border: 2px solid red;
   max-width: 700px;
   margin: auto;
 }
@@ -36,4 +30,17 @@ button {
   font-weight: bold;
   margin: 0;
   padding: 0 0.4em;
+  font-size: 1.6rem;
+}
+
+.button {
+  width: 25%;
+  height: 100px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  border: 1px solid red;
+}
+
+.wide {
+  width: 50%;
 }

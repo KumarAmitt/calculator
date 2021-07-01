@@ -3,39 +3,39 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 const ButtonPanel = ({ clickHandler }) => {
-  const renderButton = (b) => <Button buttonName={b} clickHandler={clickHandler} />;
+  const renderButton = ({ name, color = 'orange', wide = false }) => <Button buttonName={name} clickHandler={clickHandler} color={color} wide={wide} />;
 
   return (
     <>
       <section className="button-panel">
         <div>
-          {renderButton('AC')}
-          {renderButton('+/-')}
-          {renderButton('%')}
-          {renderButton('÷')}
+          {renderButton({ name: 'AC' })}
+          {renderButton({ name: '+/-' })}
+          {renderButton({ name: '%' })}
+          {renderButton({ name: '÷' })}
         </div>
         <div>
-          {renderButton('7')}
-          {renderButton('8')}
-          {renderButton('9')}
-          {renderButton('x')}
+          {renderButton({ name: '7' })}
+          {renderButton({ name: '8' })}
+          {renderButton({ name: '9' })}
+          {renderButton({ name: 'x' })}
         </div>
         <div>
-          {renderButton('4')}
-          {renderButton('5')}
-          {renderButton('6')}
-          {renderButton('-')}
+          {renderButton({ name: '4' })}
+          {renderButton({ name: '5' })}
+          {renderButton({ name: '6' })}
+          {renderButton({ name: '-' })}
         </div>
         <div>
-          {renderButton('1')}
-          {renderButton('2')}
-          {renderButton('3')}
-          {renderButton('+')}
+          {renderButton({ name: '1' })}
+          {renderButton({ name: '2' })}
+          {renderButton({ name: '3' })}
+          {renderButton({ name: '+' })}
         </div>
         <div>
-          {renderButton('0')}
-          {renderButton('.')}
-          {renderButton('=')}
+          {renderButton({ name: '0', wide: true })}
+          {renderButton({ name: '.' })}
+          {renderButton({ name: '=' })}
         </div>
       </section>
     </>
