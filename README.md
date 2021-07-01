@@ -5,7 +5,7 @@
 A simple calculator app build in React for a fictional company Math-Magicians Inc
 
 
-![screenshot](): Will be updated soon...
+![screenshot](src/screenshot.png)
 
 
 ## Live Demo
