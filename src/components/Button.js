@@ -5,7 +5,7 @@ const Button = ({
   buttonName, clickHandler, color, wide,
 }) => {
   let classNameValue = 'button';
-  classNameValue = color === 'orange' ? `${classNameValue} orange` : classNameValue;
+  classNameValue = color === 'primary' ? `${classNameValue} primary` : `${classNameValue} secondary`;
   classNameValue = wide ? `${classNameValue} wide` : classNameValue;
 
   return (

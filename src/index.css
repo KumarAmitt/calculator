@@ -11,6 +11,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .App {
@@ -19,7 +20,7 @@ body {
 }
 
 .Display {
-  background-color: gray;
+  background-color: #858693;
   height: 100px;
   text-align: right;
   line-height: 100px;
@@ -38,7 +39,15 @@ body {
   height: 100px;
   font-weight: 400;
   font-size: 1.2rem;
-  border: 1px solid red;
+  border: 1px solid #d1d1d1;
+}
+
+.primary {
+  background-color: #e0e0e0;
+}
+
+.secondary {
+  background-color: #f5913e;
 }
 
 .wide {
