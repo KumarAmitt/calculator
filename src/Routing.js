@@ -10,7 +10,7 @@ const Routing = () => (
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" exact>
+        <Route path="/">
           <Home />
         </Route>
         <Route path="/calculator" exact>
