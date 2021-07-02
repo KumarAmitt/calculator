@@ -47,8 +47,6 @@ Refer the following documentations to download the Text Editor of your choice:
 
 - Navigate to the directory `calculator` in your File Explorer.
 
-- Run `git checkout milestone-5` to check out the feature branch
-
 - Run `npm install` to install dependencies.
 
 - Run `npm start` to run the app in browser. Recommended: Chrome/Firefox
