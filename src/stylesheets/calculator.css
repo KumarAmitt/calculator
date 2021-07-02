@@ -1,0 +1,13 @@
+.Calculator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Calculator h1 {
+    font-weight: 400;
+    flex-basis: 30%;
+}
+
+.Calculator .App {
+    flex-basis: 70%;
+}
