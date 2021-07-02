@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Quote from './components/Quote';
-import App from './components/App';
+import Calculator from './components/calculator';
 
 const Routing = () => (
   <>
@@ -14,7 +14,7 @@ const Routing = () => (
           <Home />
         </Route>
         <Route path="/calculator" exact>
-          <App />
+          <Calculator />
         </Route>
         <Route path="/quote" exact>
           <Quote />
