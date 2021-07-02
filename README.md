@@ -10,7 +10,7 @@ A simple calculator app build in React for a fictional company Math-Magicians In
 
 ## Live Demo
 
-[View Live](https://calc-by-amit.herokuapp.com//)
+[View Live](https://calc-by-amit.herokuapp.com/)
 
 ## Built With 🛠
 
