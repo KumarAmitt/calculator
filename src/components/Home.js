@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Nav';
 
 const Home = () => {
   const greet = 'Welcome to our page!';
@@ -7,7 +6,6 @@ const Home = () => {
   const p2 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorum eaque id mollitia provident quis quo quod soluta! Ad, aliquid assumenda, atque aut consectetur, delectus deserunt dicta dignissimos dolor doloremque eaque error eveniet fuga ipsa ipsam iure iusto laboriosam minus natus nihil nulla numquam optio perspiciatis quas quasi qui quia ratione rerum sed soluta suscipit tempora temporibus vero? Ad animi architecto, aspernatur consequuntur culpa deserunt dignissimos dolor esse facilis libero maiores, molestias nisi numquam officia repellat temporibus voluptates! Consequatur ducimus explicabo in optio repellat. Dolorum, eaque, esse. Dicta, nihil, saepe';
   return (
     <>
-      <Navbar />
       <div>
         <h1>{greet}</h1>
         <p>{p1}</p>
