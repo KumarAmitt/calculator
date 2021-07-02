@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 @import './stylesheets/home.css';
 @import './stylesheets/navbar.css';
+@import './stylesheets/quote.css';
 
 :root {
   box-sizing: border-box;
