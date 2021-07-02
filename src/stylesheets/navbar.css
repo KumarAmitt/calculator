@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 2.4rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  font-size: 1.2rem;
+}
+
+nav ul li {
+  padding: 0.2em 0.5em;
+}
+
+nav ul li:not(:first-child) {
+  border-left: 2px solid;
+}
+
+nav ul li a {
+  margin-bottom: 0;
+  color: dodgerblue;
+  font-weight: bold;
+  text-decoration: none;
+}
