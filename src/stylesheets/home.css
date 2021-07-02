@@ -1,3 +1,12 @@
 .Home {
-  border: 2px solid red;
+  margin-top: 1em;
+}
+
+.Home h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.Home p {
+  line-height: 1.4;
 }
