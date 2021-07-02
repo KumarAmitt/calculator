@@ -1,38 +1,38 @@
 .App {
-    max-width: 700px;
+  max-width: 720px;
 }
 
 .Display {
-    background-color: #858693;
-    height: 100px;
-    text-align: right;
-    line-height: 100px;
+  background-color: #858693;
+  height: 90px;
+  text-align: right;
+  line-height: 100px;
 }
 
 .Display h2 {
-    color: #fff;
-    font-weight: bold;
-    margin: 0;
-    padding: 0 0.4em;
-    font-size: 1.6rem;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0.4em;
+  font-size: 1.6rem;
 }
 
 .button {
-    width: 25%;
-    height: 100px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    border: 1px solid #d1d1d1;
+  width: 25%;
+  height: 90px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  border: 1px solid #d1d1d1;
 }
 
 .primary {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
 
 .secondary {
-    background-color: #f5913e;
+  background-color: #f5913e;
 }
 
 .wide {
-    width: 50%;
+  width: 50%;
 }
