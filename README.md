@@ -2,7 +2,7 @@
 
 ![Microverse](https://img.shields.io/badge/-Microverse-6F23FF?style=for-the-badge)
 
-A simple calculator app build in React for a fictional company Math-Magicians Inc
+A simple calculator app build in React for a fictional company Math-Magicians Inc.
 
 
 ![screenshot](src/screenshot.png)
