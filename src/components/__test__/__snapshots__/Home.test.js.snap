@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test for the paragraph element 1`] = `
+exports[`matches snapshot for Home 1`] = `
 <div
   className="Home"
 >

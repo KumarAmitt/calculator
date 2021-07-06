@@ -11,8 +11,8 @@ test('should have a greeting text', () => {
   expect(greetElement.textContent).toBe('Welcome to our page!');
 });
 
-test('test for the paragraph element', () => {
-  const tree = renderer.create(<Home />);
+test('matches snapshot for Home', () => {
+  const tree = renderer.create(<Home />).toJSON();
 
   expect(tree).toMatchSnapshot();
 });
