@@ -6,8 +6,8 @@ const Calculator = () => {
 
   return (
     <div className="Calculator">
-      <h1>{tagline}</h1>
-      <App />
+      <h1 data-testid="tagline">{tagline}</h1>
+      <App data-testid="app" />
     </div>
   );
 };

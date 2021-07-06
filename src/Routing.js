@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Quote from './components/Quote';
-import Calculator from './components/calculator';
+import Calculator from './components/Calculator';
 
 const Routing = () => (
   <>
