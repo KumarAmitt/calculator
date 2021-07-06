@@ -15,7 +15,9 @@ exports[`match snapshot of Calculator component 1`] = `
     <div
       className="Display"
     >
-      <h2>
+      <h2
+        data-testid="result"
+      >
         0  
       </h2>
     </div>

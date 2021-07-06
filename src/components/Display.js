@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Display = ({ result }) => (
   <div className="Display">
-    <h2>{result}</h2>
+    <h2 data-testid="result">{result}</h2>
   </div>
 );
 
