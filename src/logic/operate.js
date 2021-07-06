@@ -5,6 +5,9 @@ const operate = (numberOne, numberTwo, operation) => {
   if (/[a-zA-Z]/.test(numberOne) && operation) {
     return 'Invalid Number';
   }
+  if (numberOne === '.' || numberTwo === '.') {
+    return 'Invalid Number';
+  }
 
   const num1 = Big(numberOne);
   const num2 = Big(numberTwo);

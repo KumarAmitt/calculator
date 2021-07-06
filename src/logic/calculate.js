@@ -67,6 +67,7 @@ const calculate = (data, buttonName) => {
     default:
       break;
   }
+  console.log(total, next, operation, buttonName);
   return { total, next, operation };
 };
 
