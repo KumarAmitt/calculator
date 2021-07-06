@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <Display data-testid="display" result={output} />
+        <Display result={output} />
         <ButtonPanel clickHandler={handleClick} />
       </div>
     </>
