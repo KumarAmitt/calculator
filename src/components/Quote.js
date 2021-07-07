@@ -5,7 +5,7 @@ const Quote = () => {
   const cite = 'William Paul Thurston';
   return (
     <>
-      <blockquote>
+      <blockquote data-testid="quote">
         {quote}
         <cite>
           &mdash;
