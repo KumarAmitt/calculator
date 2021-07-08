@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot of Calculator component 1`] = `
+<div
+  className="Calculator"
+>
+  <h1
+    data-testid="tagline"
+  >
+    Let's do some math!
+  </h1>
+  <div
+    className="App"
+  >
+    <div
+      className="Display"
+    >
+      <h2
+        data-testid="result"
+      >
+        0  
+      </h2>
+    </div>
+    <section
+      className="button-panel"
+    >
+      <div>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="button secondary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="button secondary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="button secondary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="button secondary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div>
+        <button
+          className="button primary wide"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="button primary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="button secondary"
+          data-testid="button"
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </section>
+  </div>
+</div>
+`;

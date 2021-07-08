@@ -53,6 +53,9 @@ Refer the following documentations to download the Text Editor of your choice:
 
 - If you wish to play around the codes, navigate to this Repository in the Text Editor of your choice.
 
+## Testing
+
+- Run `npm test` from terminal to run the tests.
 
 ## Author
 

@@ -10,7 +10,7 @@ const Button = ({
 
   return (
     <>
-      <button type="button" className={classNameValue} onClick={() => clickHandler(buttonName)}>{buttonName}</button>
+      <button data-testid="button" type="button" className={classNameValue} onClick={() => clickHandler(buttonName)}>{buttonName}</button>
     </>
   );
 };
